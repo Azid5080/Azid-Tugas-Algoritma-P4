@@ -1,32 +1,27 @@
-# Prerequisites
-*.d
+#include<iostream>
+#include<string>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int main() {
+	string nama, kelas, nim, umur;
+	
+	cout<<"Masukan Nama  : ";
+	getline(cin, nama);
+	
+	cout<<"Masukan Kelas : ";
+	cin >> kelas;
+	
+	cout<<"Masukan NIM   : ";
+	cin >> nim;
+	
+	cout<<"Masukan Umur  : ";
+	cin >> umur;
+	
+	cout<<"== Data Diri ==" << endl;
+	cout<<"Nama  : " << nama << endl;
+	cout<<"Kelas : " << kelas << endl;
+	cout<<"NIM   : " << nim << endl;
+	cout<<"Umur  : " << umur << endl;
+	
+	return 0;
+}
